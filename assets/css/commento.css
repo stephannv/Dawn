@@ -11,7 +11,7 @@
   color: var(--secondary-text-color) !important;
 }
 
-.commento-root * {
+.commento-root .commento-card .commento-body p {
   color: var(--primary-text-color) !important;
 }
 
@@ -25,4 +25,24 @@
 
 .commento-root .commento-markdown-help tr td pre {
   padding: 0 !important;
+}
+
+.commento-markdown-help tr td, .commento-markdown-help tr td *{
+  color: var(--primary-text-color) !important;
+}
+
+.commento-login-box a {
+  color: var(--secondary-text-color) !important;
+}
+
+.commento-login-box button {
+  color: var(--brand-color) !important;
+}
+
+.commento-login-box div {
+  color: var(--primary-text-color) !important;
+}
+
+.commento-login-box {
+  background-color: #44475a !important;
 }
