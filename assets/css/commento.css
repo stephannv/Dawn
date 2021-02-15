@@ -1,0 +1,28 @@
+.commento-button, .commento-submit-button {
+  background-color: #ff79c6 !important;
+}
+
+.commento-markdown-help > pre {
+  padding: 0 !important;
+}
+
+.commento-card {
+  border-left: none !important;
+  border-top: none !important;
+}
+
+.commento-name {
+  color: var(--secondary-text-color) !important;
+}
+
+.commento-root {
+  color: var(--primary-text-color) !important;
+}
+
+.commento-sort-policy-button-selected {
+  color: var(--brand-color) !important;
+}
+
+.commento-anonymous-checkbox-container label {
+  color: var(--primary-text-color) !important;
+}
