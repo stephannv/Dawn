@@ -2,10 +2,6 @@
   background-color: #ff79c6 !important;
 }
 
-.commento-markdown-help > pre {
-  padding: 0 !important;
-}
-
 .commento-card {
   border-left: none !important;
   border-top: none !important;
@@ -15,7 +11,7 @@
   color: var(--secondary-text-color) !important;
 }
 
-.commento-root {
+.commento-root * {
   color: var(--primary-text-color) !important;
 }
 
@@ -25,4 +21,8 @@
 
 .commento-anonymous-checkbox-container label {
   color: var(--primary-text-color) !important;
+}
+
+.commento-root .commento-markdown-help tr td pre {
+  padding: 0 !important;
 }
